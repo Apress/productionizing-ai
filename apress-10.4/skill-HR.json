@@ -1,0 +1,1368 @@
+{
+  "intents": [
+    {
+      "intent": "Admin",
+      "examples": [
+        {
+          "text": "How to update my next of kin?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "affirm",
+      "examples": [
+        {
+          "text": "absolutely"
+        },
+        {
+          "text": "definitely"
+        },
+        {
+          "text": "for�sure"
+        },
+        {
+          "text": "y"
+        },
+        {
+          "text": "ya"
+        },
+        {
+          "text": "yes"
+        },
+        {
+          "text": "yes,�it�did."
+        },
+        {
+          "text": "yes�sure"
+        },
+        {
+          "text": "yes�yes�yes"
+        }
+      ]
+    },
+    {
+      "intent": "benefits",
+      "examples": [
+        {
+          "text": "can you help me with share options"
+        },
+        {
+          "text": "Does the company offer the opportunity to buy some of its shares?"
+        },
+        {
+          "text": "Do I get any work benefits such as health insurance, gym membership or 'perks at work'?"
+        },
+        {
+          "text": "Is there a reduced price for employees?"
+        },
+        {
+          "text": "What are my work benefits here?"
+        }
+      ],
+      "description": "Asking about company benefits"
+    },
+    {
+      "intent": "Complaint",
+      "examples": [
+        {
+          "text": "How do i raise a complaint about another member of staff?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "deny",
+      "examples": [
+        {
+          "text": "don't�like�that"
+        },
+        {
+          "text": "I�don't�think�so"
+        },
+        {
+          "text": "n"
+        },
+        {
+          "text": "never"
+        },
+        {
+          "text": "no"
+        },
+        {
+          "text": "nope"
+        },
+        {
+          "text": "not�really"
+        },
+        {
+          "text": "no�way"
+        }
+      ]
+    },
+    {
+      "intent": "goodbye",
+      "examples": [
+        {
+          "text": "Bye"
+        },
+        {
+          "text": "Bye�bot"
+        },
+        {
+          "text": "bye�for�now"
+        },
+        {
+          "text": "catch�you�later"
+        },
+        {
+          "text": "end"
+        },
+        {
+          "text": "finish"
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Goodbye�friend"
+        },
+        {
+          "text": "goodnight"
+        },
+        {
+          "text": "gotta�go"
+        },
+        {
+          "text": "have�a�nice�day"
+        },
+        {
+          "text": "i'm�off"
+        },
+        {
+          "text": "See�you"
+        },
+        {
+          "text": "See�you�later"
+        },
+        {
+          "text": "see�you�later�alligator"
+        },
+        {
+          "text": "we'll�speak�soon"
+        }
+      ]
+    },
+    {
+      "intent": "greet",
+      "examples": [
+        {
+          "text": "Good�morning"
+        },
+        {
+          "text": "greetings"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "hello�everybody"
+        },
+        {
+          "text": "hello�is�anybody�there"
+        },
+        {
+          "text": "hello�robot"
+        },
+        {
+          "text": "hello,�[steven](PERSON)�is�my�name"
+        },
+        {
+          "text": "hello,�this�is�[steven](PERSON)"
+        },
+        {
+          "text": "Hey"
+        },
+        {
+          "text": "Hey�bot"
+        },
+        {
+          "text": "hey,�I�am�[Jack](PERSON)"
+        },
+        {
+          "text": "hey,�my�name�is�[steven](PERSON)"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "hi�again"
+        },
+        {
+          "text": "Hi�bot"
+        },
+        {
+          "text": "hi�folks"
+        },
+        {
+          "text": "hi�Mister"
+        },
+        {
+          "text": "hi�pal!"
+        },
+        {
+          "text": "hi�there"
+        },
+        {
+          "text": "hi,�this�is�[jill](PERSON)"
+        },
+        {
+          "text": "hola,�this�is�[john](PERSON)"
+        },
+        {
+          "text": "how�do�you�do?"
+        },
+        {
+          "text": "Never mind, Your understands"
+        },
+        {
+          "text": "what's�up"
+        },
+        {
+          "text": "what�are�you?"
+        },
+        {
+          "text": "who�are�you?"
+        }
+      ]
+    },
+    {
+      "intent": "Help",
+      "examples": [],
+      "description": ""
+    },
+    {
+      "intent": "Humour",
+      "examples": [
+        {
+          "text": "hahahaha! Your, I have tried"
+        },
+        {
+          "text": "I may pass away. How is my life insurance, salary and pension paid to my family?"
+        },
+        {
+          "text": "im dead, can you explain what the company can do for me"
+        },
+        {
+          "text": "I'm dead. How is my life insurance, salary and pension paid to my family?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "IT",
+      "examples": [
+        {
+          "text": "How can I build my own chatbot assistant?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "name",
+      "examples": [
+        {
+          "text": "[George](PERSON)"
+        },
+        {
+          "text": "I�am�[Paul](PERSON)"
+        },
+        {
+          "text": "I�am�[paul�thomas](PERSON)"
+        },
+        {
+          "text": "[jibin�mathew](PERSON)"
+        },
+        {
+          "text": "[mary](PERSON)"
+        },
+        {
+          "text": "[Mary�john](PERSON)"
+        },
+        {
+          "text": "My�name�is�[George](PERSON)"
+        },
+        {
+          "text": "My�name�is�[george�xavier](PERSON)"
+        },
+        {
+          "text": "My�name�is�[sam](PERSON)"
+        },
+        {
+          "text": "My�name�is�[sam�paul](PERSON)"
+        },
+        {
+          "text": "This�is�[Mary](PERSON)"
+        }
+      ]
+    },
+    {
+      "intent": "OrgStructure",
+      "examples": [
+        {
+          "text": "I work in Finance - who is my manager?"
+        },
+        {
+          "text": "Where can i find out more about the changes to my department?"
+        },
+        {
+          "text": "Who is my manager in Finance?"
+        },
+        {
+          "text": "Who is my new manager?'"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Payroll",
+      "examples": [
+        {
+          "text": "How do I see my payslip?"
+        },
+        {
+          "text": "What website can i download my payslip?"
+        },
+        {
+          "text": "Where do i log my hours worked?"
+        },
+        {
+          "text": "Why is there no more overtime?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "position",
+      "examples": [
+        {
+          "text": "[any](roletype)"
+        },
+        {
+          "text": "[any](roletype)�role"
+        },
+        {
+          "text": "[anything](role_type:any)"
+        },
+        {
+          "text": "[anything](role_type:any)�is�fine"
+        },
+        {
+          "text": "Any vacancy in your marketing department at the moment?"
+        },
+        {
+          "text": "A�[business](role_type)�one"
+        },
+        {
+          "text": "A�[management](role_type:business)�one"
+        },
+        {
+          "text": "A�[technical](role_type)�one"
+        },
+        {
+          "text": "A�[tech](role_type:technical)�one"
+        },
+        {
+          "text": "[business](role_type)"
+        },
+        {
+          "text": "can you fill me in on my job application"
+        },
+        {
+          "text": "Can�I�know�about�open�positions?"
+        },
+        {
+          "text": "Can�I�seeking�[tech](role_type:technical)�roles?"
+        },
+        {
+          "text": "Can�I�see�some�of�the�[business](role_type)�roles?"
+        },
+        {
+          "text": "Can�I�see�some�of�the�[technical](role_type)�roles?"
+        },
+        {
+          "text": "Can�I�see�some�of�the�[tech](role_type:technical)�roles?"
+        },
+        {
+          "text": "Do�you�have�[any](roletype)�openings?"
+        },
+        {
+          "text": "Do�you�have�[any](roletype)�opportunities�available?"
+        },
+        {
+          "text": "do�you�have�any�vacancies"
+        },
+        {
+          "text": "do�you�have�jobs"
+        },
+        {
+          "text": "Do�you�have�opening�in�[tech](role_type:technical)?"
+        },
+        {
+          "text": "how�about�[tech](role_type:technical)?"
+        },
+        {
+          "text": "I would like to know if there is any job opening for a Junior Analyst role in your Marketing department"
+        },
+        {
+          "text": "I�am�open�to�[anything](role_type:any)"
+        },
+        {
+          "text": "I�d�like�to�know�which�positions�are�open�right�now"
+        },
+        {
+          "text": "I�want�to�join�your�company"
+        },
+        {
+          "text": "I�would�like�to�get�a�job�with�you"
+        },
+        {
+          "text": "[management](role_type:business)"
+        },
+        {
+          "text": "position"
+        },
+        {
+          "text": "show�me�[tech](role_type:technical)�roles"
+        },
+        {
+          "text": "[technical](role_type)"
+        },
+        {
+          "text": "[technology](role_type:technical)"
+        },
+        {
+          "text": "[tech](role_type:technical)"
+        },
+        {
+          "text": "tell�me�about�open�positions"
+        }
+      ]
+    },
+    {
+      "intent": "status",
+      "examples": [
+        {
+          "text": "Applicationnstatus"
+        },
+        {
+          "text": "app status"
+        },
+        {
+          "text": "Can�I�have�an�update�on�my�application�status"
+        },
+        {
+          "text": "I�applied�for�a�job�and�would�like�to�know�when�I�ll�hear�back."
+        },
+        {
+          "text": "I�have'nt�heard�about�by�application."
+        },
+        {
+          "text": "I�have�not�heard�back�on�my�application�status."
+        },
+        {
+          "text": "I�would�like�to�know�about�my�appilication�status."
+        },
+        {
+          "text": "May�I�know�what's�my�application�update?"
+        },
+        {
+          "text": "what's�my�application�update?"
+        },
+        {
+          "text": "What's�the�update�on�my�status?"
+        },
+        {
+          "text": "Where�can�I�have�an�update�on�my�application�status"
+        }
+      ]
+    },
+    {
+      "intent": "thanks",
+      "examples": [
+        {
+          "text": "amazing,�thanks"
+        },
+        {
+          "text": "cheers"
+        },
+        {
+          "text": "cheers�bro"
+        },
+        {
+          "text": "cool,�thanks"
+        },
+        {
+          "text": "cool�thank�you"
+        },
+        {
+          "text": "ok�thanks!"
+        },
+        {
+          "text": "perfect�thank�you"
+        },
+        {
+          "text": "Thanks"
+        },
+        {
+          "text": "thanks�a�bunch�for�everything"
+        },
+        {
+          "text": "thanks�a�lot"
+        },
+        {
+          "text": "Thanks�bot"
+        },
+        {
+          "text": "Thanks�for�that"
+        },
+        {
+          "text": "thanks�for�the�help"
+        },
+        {
+          "text": "Thank�you"
+        },
+        {
+          "text": "Thank�you�so�much"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity": "Extras",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "company benefits",
+          "synonyms": [
+            "perks"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "gym",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "insurance",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "pension",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "share",
+          "synonyms": [
+            "shares"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "stock",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Negotiate",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "reduce",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Payment",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "hours",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "log",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "overtime",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "payroll",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "salary",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "wage",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "People",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Manager",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "next of kin",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "PERSON",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Ali Park",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "jibin",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "jibin mathew",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "role_type",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "any",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "business",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "technical",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Services",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Team",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "department",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Finance",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "marketing",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "peer",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sales",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_8_1628440192684",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1628523199679",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1628523199686",
+      "previous_sibling": "handler_1_1628523199686"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_9_1628523199679",
+      "event_name": "input",
+      "dialog_node": "handler_1_1628523199686"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1632243675645",
+      "event_name": "input",
+      "dialog_node": "handler_4_1632243675645"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1632243675645",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1632243675645",
+      "previous_sibling": "handler_4_1632243675645"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_3_1628442059871",
+      "event_name": "input",
+      "dialog_node": "handler_6_1628442059881"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1628442059871",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1628442059881",
+      "previous_sibling": "handler_6_1628442059881"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1632243675645",
+      "event_name": "input",
+      "dialog_node": "handler_8_1632243675645"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1632243675645",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1632243675645",
+      "previous_sibling": "handler_8_1632243675645"
+    },
+    {
+      "type": "standard",
+      "title": "action_check_positions",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "machine learning engineer and ML product success engineer are the only open positions <a  target=\"_blank\" href=\"https://www.totaljobs.com/job/machine-learning-engineer/sparta-global-job94882649\">ML Engineer</a><br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1628439853247",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1628439962520"
+      },
+      "conditions": "@role_type:technical",
+      "dialog_node": "node_10_1628441670507"
+    },
+    {
+      "type": "standard",
+      "title": "utter_greet",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello! How can I help?"
+              },
+              {
+                "text": "Hey! What can I do for you?"
+              },
+              {
+                "text": "hi, I’m CE's recruiting bot. How can I help?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#greet || #affirm",
+      "dialog_node": "node_1_1628439316338",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "utter_knowmore",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Do you want more help?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "dialog_node": "node_1_1628439962520",
+      "previous_sibling": "node_7_1628439570295"
+    },
+    {
+      "type": "standard",
+      "title": "other",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1628439570295",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "#position",
+      "dialog_node": "node_1_1632243675644",
+      "previous_sibling": "node_7_1628439962611"
+    },
+    {
+      "type": "standard",
+      "title": "utter_more",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ok..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_1_1628439316338"
+      },
+      "conditions": "#deny",
+      "dialog_node": "node_1_1633353971355",
+      "previous_sibling": "node_2_1633432569193"
+    },
+    {
+      "type": "standard",
+      "title": "action_check_positions",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "machine learning engineer and ML product success engineer are the only open positions"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1632243675644",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1628439962520"
+      },
+      "conditions": "@role_type:technical",
+      "dialog_node": "node_2_1632243675645"
+    },
+    {
+      "type": "standard",
+      "title": "utter_nothanks",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Happy to have helped you!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1628440192684"
+      },
+      "conditions": "#deny",
+      "dialog_node": "node_2_1633432569193",
+      "previous_sibling": "node_6_1632239727717"
+    },
+    {
+      "type": "standard",
+      "title": "utter_role",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are you looking for a technical or a business role?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1628439570295",
+      "conditions": "#position",
+      "dialog_node": "node_4_1628439853247"
+    },
+    {
+      "type": "standard",
+      "title": "action_check_status",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Yes, your application has been received"
+              },
+              {
+                "text": "Unfortunately your application has been rejected"
+              },
+              {
+                "text": "We have received your application and would like to arrange an interview"
+              },
+              {
+                "text": "I'm sorry we have lost your application..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_7_1628439962611",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1628439962520"
+      },
+      "dialog_node": "node_5_1628523832039"
+    },
+    {
+      "type": "standard",
+      "title": "negotiate",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Share pricing options for employees can be found by clicking on this link  <a  target=\"_blank\" href=\"https://upjoke.com/stock-option-jokes\">Share Options</a><br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1632239511320",
+      "conditions": "@Negotiate:reduce",
+      "dialog_node": "node_5_1632239610514"
+    },
+    {
+      "type": "standard",
+      "title": "utter_simple_greet",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello!"
+              },
+              {
+                "text": "Hey!"
+              },
+              {
+                "text": "hi, I’m CE's recruiting bot."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1628439401546",
+      "previous_sibling": "node_1_1628439316338"
+    },
+    {
+      "type": "standard",
+      "title": "action_check_positions",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "There are no open positions"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1628439853247",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1628439962520"
+      },
+      "conditions": "@role_type:business",
+      "dialog_node": "node_6_1628523809601",
+      "previous_sibling": "node_10_1628441670507"
+    },
+    {
+      "type": "standard",
+      "title": "humour",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "are you trying to be funny ?"
+              },
+              {
+                "text": "what are you serious ?"
+              },
+              {
+                "text": "well that makes two of us"
+              },
+              {
+                "text": "your dead ? I'm ALIVE!!!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "humour": "yes"
+      },
+      "conditions": "#Humour",
+      "dialog_node": "node_6_1632239727717",
+      "previous_sibling": "node_7_1632239511320"
+    },
+    {
+      "type": "standard",
+      "title": "action_check_positions",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "There are no open positions"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1632243675644",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1628439962520"
+      },
+      "conditions": "@role_type:business",
+      "dialog_node": "node_6_1632243675645",
+      "previous_sibling": "node_2_1632243675645"
+    },
+    {
+      "type": "standard",
+      "title": "utter_utilities",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is it that I can help you with? Open position, check you application status or other"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#position || #status || #affirm",
+      "dialog_node": "node_7_1628439570295",
+      "previous_sibling": "node_6_1628439401546"
+    },
+    {
+      "type": "standard",
+      "title": "utter_name",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Enter your name"
+              },
+              {
+                "text": "May I know your name"
+              },
+              {
+                "text": "What's your name?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1628439316338",
+      "conditions": "#name",
+      "dialog_node": "node_7_1628439650458"
+    },
+    {
+      "type": "standard",
+      "title": "utter_check",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi {PERSON}! Let me check that for you"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1628439570295",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1628523832039"
+      },
+      "conditions": "#status",
+      "dialog_node": "node_7_1628439962611",
+      "previous_sibling": "node_4_1628439853247"
+    },
+    {
+      "type": "standard",
+      "title": "company_benefits",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The company provides a share option scheme. Employees have the right to buy a certain number of shares at a fixed price, some period of time in the future."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@Extras:stock || @Extras:share",
+      "dialog_node": "node_7_1632239511320",
+      "previous_sibling": "node_1_1628439962520"
+    },
+    {
+      "type": "standard",
+      "title": "utter_goodbye",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Talk to you later."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#goodbye",
+      "dialog_node": "node_8_1628440192684",
+      "previous_sibling": "node_1_1633353971355"
+    },
+    {
+      "type": "standard",
+      "title": "not_humour",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "let me investigate that / search our document archives and get back you within our SLA of 2 hours with further information <a  target=\"_blank\" href=\"https://www.ibm.com/docs/en/imdm/11.6?topic=content-watson-search\">Watson Search</a><br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1632239727717",
+      "conditions": "$humour",
+      "dialog_node": "node_9_1633432668993"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1628439853247",
+      "dialog_node": "slot_3_1628442059871",
+      "previous_sibling": "node_6_1628523809601"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_2_1632243675645",
+      "dialog_node": "slot_3_1632243675645"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1632243675644",
+      "dialog_node": "slot_7_1632243675645",
+      "previous_sibling": "node_6_1632243675645"
+    },
+    {
+      "type": "slot",
+      "parent": "node_10_1628441670507",
+      "dialog_node": "slot_9_1628523199679"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. How can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "HR-Demo",
+  "language": "en",
+  "description": ""
+}

@@ -1,0 +1,24 @@
+[{"tag": "welcome",
+"patterns": ["Hi", "How are you", "Is any one to talk?", "Hello", "hi are you available"],
+"responses": ["Hello, thanks for contacting us", "Good to see you here"," Hi there, how may I assist you?"]
+
+        },
+{"tag": "goodbye",
+"patterns": ["Bye", "See you later", "Goodbye", "I will come back soon"],
+"responses": ["See you later, thanks for visiting", "have a great day ahead", "Wish you Come back again soon."]
+        },
+
+{"tag": "thankful",
+"patterns": ["Thanks for helping me", "Thank your guidance", "That's helpful and kind from you"],
+"responses": ["Happy to help!", "Any time!", "My pleasure", "It is my duty to help you"]
+        },
+        {"tag": "hoursopening",
+"patterns": ["What hours are you open?", "Tell your opening time?", "When are you open?", "Just your timing please"],
+"responses": ["We're open every day 8am-7pm", "Our office hours are 8am-7pm every day", "We open office at 8 am and close at 7 pm"]
+        },
+
+{"tag": "payments",
+"patterns": ["Can I pay using credit card?", " Can I pay using Mastercard?", " Can I pay using cash only?" ],
+"responses": ["We accept VISA, Mastercard and credit card", "We accept credit card, debit cards and cash. Please don’t worry"]
+        }
+   ]
