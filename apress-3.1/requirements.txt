@@ -1,0 +1,4 @@
+numpy
+pandas
+rise
+jupyterlab_rise
